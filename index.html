@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+<head>
+  <meta charset="UTF-8">
+  <title>Guia dev front end</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/ReneFarias/praticas_react/main/assets/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <div class="perfil">
+        <img class="perfil-foto" src="https://th.bing.com/th/id/R.2fea374b32db6507b24361c68bb0a036?rik=783mVjelVQH%2bOA&pid=ImgRaw&r=0" />
+        <div class="titulo">
+          <h1>Feito por Renê Farias</h1>
+          <h3>Dev web Junior</h3>
+        </div>
+      </div>
+      <div class="tema">
+        <button onclick="mudaTema()">Alterar Tema</button>
+      </div>
+    </header>
+
+    <main class="projetos">
+      <ul class="projetos-titulo">MAPA DEV<ul>
+        <li class="projetos-item">
+          <h1>CONHECIMENTOS GERAIS</h1>
+            <img class="projetos-js" src="https://i.pinimg.com/736x/ad/bc/e4/adbce4a161f4b49dda4a23caedaef0fb.jpg" onclick="location.href='https://renefarias.github.io/pokedex/'" alt="">
+            <p>Então vamos lá, começando pelos conhecimentos 
+              GERAIS que absolutamente todas as áreas vão requisitar, então você PRECISA aprender…
+            </p>
+              <h2>Versionamento de código com GIT/GitHub</h2>
+              <p>Saber fazer o controle básico de código é conhecimento obrigatório hoje 
+                em dia, pois até pra compartilhar códigos com seus amigos, você vai ser 
+                solicitado "poe no github e me passa o link".</p>
+              <h2>Conhecimentos básicos de terminal</h2>
+              <p>Mesmo que você use Windows, alguns conhecimentos básico de terminal/prompt são essenciais, pois hoje em dia, independente da linguagem 
+                que você escolher, uma hora ou outra vai ser necessário fazer uso do terminal/prompt, então o conhecimento básico dos principais comandos já é 
+                mais do que o suficiente.</p>
+              <h2>Nomenclatura básica de programação</h2>
+              <p>Coisas como API, padrão de projeto, encoding, licença, estrutura de dados, 
+                algoritmo, dentre outros, são nomenclaturas que você precisa no mínimo 
+                saber do que se trata. Não precisa saber tudo e todas as variações, mas 
+                pelo menos uma noção básica pra saber o que é quando ver a palavra 
+                em algum lugar (ou escutar).</p>
+        </li>          
+          <li class="projetos-item">
+            <h1>FRONTEND</h1>
+              <img class="projetos-js" src="https://courses.wscubetech.com/s/store/courses/5f5338c60cf2d7d974471146/cover.jpg?v=1" onclick="location.href='https://renefarias.github.io/todo-list/'" alt="">
+              <p>Beleza, agora que você já tem a orientação básica 
+                sobre o que precisa aprender antes de começar a 
+                brincar em qualquer área. Vamos aprender agora 
+                desde o início, qual é o melhor caminho para um programador Frontend que está começando agora.</p>
+                <h2>HTML e CSS</h2>
+                <p>Hoje em dia a gente ainda chama de HTML5 e CSS3, mas o fato é que 
+                  esses números de versões já são o padrão mundial, então podemos 
+                  apenas chamar de HTML e CSS e pronto.</p>
+                <p>Nessa tecnologia, o que você precisa focar mais?</p>
+                <p>Aprenda o básico de HTML e CSS.
+                    Aprenda o que é e como funciona HTML semântico.
+                    Aprenda SEO básico e tags de acessibilidade.
+                    Sobre CSS, foque em aprender, além do básico,
+                    Display, Positioning, Float e FlexBox.
+                    Depois foque em Media Query, pra tornar suas páginas 
+                    responsivas.
+                    Por último, aprenda conceitos mais avançados de 
+                    CSS3, como animações, before/after, transform, etc…</p>
+                <p>Durante esse processo, é legal que você vá praticando tudo 
+                  que vai aprendendo. Como? Criando e re-criando páginas 
+                  que você conhece, bem como criando novas páginas.
+                  Pesquisa lá: "website template", ou "layout de site", ou 
+                  variações disso. Depois vai em Imagens e pronto, você terá 
+                  uma centena de sites e páginas pra praticar recriando elas.</p>
+                  <h2>JavaScript</h2>
+                  <p>Essa é a linguagem-mãe de quase todas as tecnologias que você vai manusear quando o assunto é frontend, então eu recomendo dar uma atenção 
+                    especial nos estudos aqui.
+                    O que você deve focar mais atenção pra aprender bem?</p>
+                    <p>Sintaxe e construções básicas.
+                      Manipulação de DOM
+                      Eventos diversos (mouse e teclado)
+                      Fetch API e Ajax</p>
+                      <p>Só com esse conhecimento, além do HTML e CSS, você não 
+                        faz ideia da habilidade que já vai ter, já vai ser capaz de 
+                        criar coisas que antes eram inimagináveis pra você conseguir 
+                        criar um dia.
+                        A partir daí, foca em EcmaScript 6+, Javascript Modular, 
+                        Controle de Eventos, Strict, DNS, Hoisting, etc.</p>
+             <h2>Package Managers</h2> 
+             <p>NPM</p> 
+             <p>Yarn</p> 
+             <p>Agora você vai começar a sentir o poder do Javascript, então o ideal é já 
+              aprender todas as principais funções e comandos dos dois maiores gerenciadores de pacotes para Javascript… NPM e YARN. Os dois usam os 
+              mesmos repositórios, o mais usado é o NPM, mas o Yarn tem recursos mais 
+              otimizados, se tornando mais ágil… Nada sério, escolha qualquer um e 
+              seja feliz.</p> 
+              <h2>Pré-processador de CSS</h2>
+              <p>Sass</p> 
+              <p>As 3 maiores opções do mercado hoje em dia são SASS, LESS e POSTCSS, 
+                sendo a última não considerada um pré-processador, mas sim um 
+                pós-processador, não importa, depois você estuda sobre essa diferença.
+                Apesar de ainda existir mercado pro LESS, o mundo hoje usa majoritariamente o SASS, então essa é minha recomendação</p>    
+                <h2>Framework CSS</h2>
+                <p>Bootstrap</p>
+                <p>Existem 2 grandes no mercado, Bootstrap e Materialize, sendo o primeiro 
+                  disparadamente maior. Então pra Framework CSS hoje, minha 
+                  recomendação é Bootstrap. Aprenda e pratique muito, pois vai ficar viciado em usar ele</p>
+                <h2>Linters, Bundlers e Taskers</h2>
+                <p>ESLint</p>
+                <p>Prettier</p>
+                <p>Gulp</p>
+                <p>Webpack</p>
+                <p>Você vai aprender agora sobre ESLint e Prettier, ferramentas que vão te 
+                  ajudar a escrever um código mais limpo e organizado. Logo em seguida, 
+                  estude duas ferramentas excepcionais, Webpack e Gulp. Com elas, você vai 
+                  conseguir organizar seu projeto e automatizar tarefas de forma muito 
+                  rápida</p>
+                  <h2>Frameworks</h2>
+                  <p>React</p>
+                  <p>Se for aprender React, 
+                    não esqueça de aprender 
+                    Hooks e Redux, confie 
+                    em mim.</p>
+                  <p>Vue</p>
+                  <p>Se for aprender Vue, 
+                    também não esqueçe do 
+                    VueX.</p>
+                  <p>Angular</p>
+                  <p>No caso do Angular, a 
+                    recomendação pra aprofundamento vai para a 
+                    ferramenta RxJS</p>
+                    <p>A minha maior recomendação é que você experimente todas as 3 tecnologias 
+                      até conseguir criar, por exemplo, um sisteminha de tarefas em cada uma. Aí 
+                      sim você vai ter condições de decidir na prática qual gostou mais. 
+                      O React hoje possui um grande aliado, o React Native, que te permite criar 
+                      aplicativos nativos usando códigos com React, ou seja, é um conhecimento 
+                      que você vai conseguir pelo menos 2 aplicações reais, tanto no Frontend 
+                      quanto no Mobile.
+                      Então em termos de Vagas de Emprego, procura de mercado e claro, 
+                      preferência pessoal, a minha recomendação dentre os três vai ser para o 
+                      React. Apesar do Vue também ter um excelente mercado e muita gente achar 
+                      ele bem mais fácil de aprender.</p>
+                      <h2>CSS in JS</h2>
+                      <p>Styled Components</p>
+                      <p>Essa ferramenta é muito 
+                        conhecida no mundo 
+                        React, mas saiba que ela 
+                        também é compatível com 
+                        os outros frameworks.</p>
+                      <p>Cada vez mais hoje em dia nós estamos usando código CSS dentro do nosso 
+                        Javascript, o que faz com que muita gente fique p* da vida com a junção, mas 
+                        é um caminho sem volta, então se acostume e aprenda, pois vai te ajudar 
+                        bastante.</p>
+                        <h2>TESTING</h2>
+                        <p>Agora você já tem um conhecimento muito bom no Frontend, tá na hora de 
+                          avançar um pouco isso, então vá estudar sobre Testing.</p>
+                        <p>Jest</p>
+                        <p>Cypress</p>
+                        <p>Enzyme</p>
+                        <h2>Web API e PWA</h2>
+                        <p>O próximo passo é aprender as principais WebAPIs, como por exemplo:</p>
+                        <p>Storage</p>
+                        <p>Location</p>
+                        <p>WebSockets</p>
+                        <p>ServiceWorkers</p>
+                        <p>Notification</p>
+                        <p>E claro, todo o básico sobre PWA e suas aplicações práticas.
+                          Pra não deixar de citar, você pode aprender TypeScript também, pra dar 
+                          um upgrade nos seus conhecimentos de Javascript.</p>
+
+
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          
+                    </li>
+          <!-- <li class="projetos-item">
+            <p>Trello clone</p>
+              <a href="https://renefarias.github.io/trello-clone/" alt=""> Para ver clique aqui! </a> Em desenvolvimento
+              <p>Trelo clone feito por mim, usando React.
+                (Projeto em desenvolvimento, disponivel somente para pc.)
+              </p>
+          </li> -->
+    </main>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
